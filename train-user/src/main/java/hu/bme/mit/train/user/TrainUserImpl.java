@@ -13,7 +13,7 @@ public class TrainUserImpl implements TrainUser {
 	}
 
 	@Override
-	public boolean getAlarmFlag() {
+	public int getAlarmFlag() {
 		return false;
 	}
 
