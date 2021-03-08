@@ -8,13 +8,13 @@ This is a sample application for the verification laboratory.
 * The project can be built using [Gradle](https://gradle.org/).
 * [JUnit](http://junit.org/junit4/) is used for tests.
 
-Clone the repository and execute Gradle to build the application:
+Clone the repository and execute Gradle to *build the application:*
 
 ```
 ./gradlew build
 ```
 
-To compile and run tests also execute:
+To compile and **run tests** also execute:
 
 ```
 ./gradlew test
@@ -23,6 +23,8 @@ To compile and run tests also execute:
 ## Overview
 
 ### Structure
+
+> The project's main structure: 
 
 The application represents a simple train controller system with the following three components.
 
