@@ -55,5 +55,14 @@ public class TrainSystemTest {
 		user.overrideJoystickPosition(10);
 		Assert.assertEquals(10, user.getJoystickPosition());
 	}
+
+	@Test
+	public void Tachograph_Elements(){
+		Assert.assertTrue(controller.getTachograph().isEmpty());
+		controller.followSpeed();
+		Assert.assertFalse(controller.getTachograph().isEmpty());
+	}
+
+
 	
 }
